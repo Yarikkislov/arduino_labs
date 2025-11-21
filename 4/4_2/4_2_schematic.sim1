@@ -1,0 +1,29 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="1060,656" rotation="90" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Ili9341" CircId="Ili9341-2" mainComp="false" Show_id="true" Show_Val="false" Pos="1044,476" rotation="0" hflip="1" vflip="1" label="Ili9341-2" idLabPos="-32,-180" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="TouchPadR" CircId="TouchPadR-4" mainComp="false" Show_id="true" Show_Val="false" Pos="1296,636" rotation="0" hflip="1" vflip="1" label="TouchPadR-4" idLabPos="-35,-335" labelrot="0" valLabPos="-16,20" valLabRot="0" Width="240 _px" Height="320 _px" Transparent="false" RxMin="100 Ω" RxMax="500 Ω" RyMin="100 Ω" RyMax="500 Ω" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Ili9341-2-PinCS" endpinid="Uno-1-10" pointList="988,660,988,684,1148,684,1148,696" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Ili9341-2-PinRst" endpinid="Uno-1-8" pointList="996,660,996,680,1164,680,1164,696" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Ili9341-2-PinDC" endpinid="Uno-1-9" pointList="1004,660,1004,676,1156,676,1156,696" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Ili9341-2-PinMosi" endpinid="Uno-1-11" pointList="1012,660,1012,672,1140,672,1140,696" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Ili9341-2-PinSck" endpinid="Uno-1-13" pointList="1020,660,1020,668,1124,668,1124,696" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="TouchPadR-4-vrx_p" endpinid="Uno-1-6" pointList="1284,660,1284,684,1188,684,1188,696" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="TouchPadR-4-vrx_m" endpinid="Uno-1-A2" pointList="1292,660,1292,852,1212,852,1212,840" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="TouchPadR-4-vry_p" endpinid="Uno-1-A1" pointList="1300,660,1300,856,1204,856,1204,840" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="TouchPadR-4-vry_m" endpinid="Uno-1-7" pointList="1308,660,1308,680,1180,680,1180,696" />
+
+</circuit>
